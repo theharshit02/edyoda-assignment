@@ -1,0 +1,174 @@
+.module{
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+}
+
+.programSelect{
+    position: relative;
+    height: 7vh;
+    background: #15294B;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.programSelect p{
+    color: white;
+    margin-right: 50px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.programCode{
+    cursor: pointer;
+}
+
+.programList{
+    position: fixed;
+    padding-left: 100px;
+    background: #15294B;
+    width: 100%;
+}
+
+.programList p{
+    color: white;
+    margin-top: 0px;
+}
+
+.codes{
+    display: flex;
+}
+
+.codes p{
+    margin-right: 20px;
+    margin-top: 0px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.content{
+    display: flex;
+}
+
+.sidebar{
+    height: 83vh;
+    width: 6%;
+    background: #4887f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar img{
+    height: 40px;
+}
+
+.sidebar div{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.sidebar div:hover{
+    background-color: white;
+    
+}
+
+.midBar{
+    width: 13%;
+    height: 83vh;
+    background: #E0E6F2;
+    display: flex;
+    flex-direction: column;
+}
+
+.divisions{
+    display: flex;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.divisions:hover{
+    background: lightgray;
+}
+
+.mainbar{
+    width: 81%;
+    height: 83vh;
+    background: #F2F6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topicContent{
+    width: 1100px;
+    height: 550px;
+    background: #F2F6FF;
+}
+
+.section{
+    display: flex;
+    width: 1000px;
+    margin-top: 20px;
+}
+
+.section p{
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sectionContent{
+    width: 1000px;
+    height: 400px;
+    background: white;
+}
+
+.sessionDetail{
+    width: 100%;
+    height: 80%;
+    padding: 40px;
+}
+
+.btn{
+    background: #b0b0b0e4;
+    height: 40px;
+    width: 200px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.quizContent{
+    width: 1100px;
+    height: 550px;
+}
